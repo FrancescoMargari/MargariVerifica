@@ -37,8 +37,8 @@ public class MargariFrancescoClass {
 	 * @param f
 	 * @return sommatoria intero
 	 */
-	public int margariMet(int s,int f) {
-		int r=0;
+	public int margariMet(int s,int f) { //r deve essere diverso da 0
+		int r=2;
 		for(int i=1;i<f;i++) {
 			r=r*i;
 		}
@@ -51,8 +51,9 @@ public class MargariFrancescoClass {
 		
 		MargariFrancescoClass f=new MargariFrancescoClass(4,3);
 		
-		f.margariMet(4,3);
-		f.margariMet(3,3);
+		System.out.println(f.margariMet(4,3));
+		System.out.println(f.margariMet(3,3));
+		
 	}
 
 }
